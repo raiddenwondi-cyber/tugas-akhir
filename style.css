@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.back{
+    /* ini cara bikin div nya diluar screen ⬇*/
+    height: 440vh;
+    /* nanti tinggal diatur heightnya */
+    width: 100%;
+    background-image: linear-gradient(to bottom,rgb(255, 85, 85),rgb(252, 94, 120));
+    
+}
+.back1{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bks-back{
+    height: 90%;
+    width: 70%;
+
+}
+.judul{
+    height: 230px;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.jud1{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    font-size: 5vh;
+}
+.jud2{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    font-size: 10px;
+}
+.jud3{
+    height: 25%;
+    width: 1262px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color: white;
+    font-size: 3vh;
+}
+.logo{
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 2vh;
+    width: 2vh;
+    text-align: center;
+    gap: 5%;
+    margin: 5px;
+    color: white;
+}
+.block1{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+.bks-block1{
+    height: 75%;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    font-weight: bold; 
+    font-size: 25px;
+}
+.bawah1{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+}
+.gambar{
+    height: 100%;
+    width: 50%;
+    border: 2px solid gray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px ;
+}
+.gambar img{
+    height: 26vh;
+}
+.tulisan{
+    height: 100%;
+    width: 100%;
+    color: gray;
+    font-size: 10px;
+}
+.block2{
+    width: 100%;
+    height: 330px;
+    border: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px;
+    background-color: rgb(218, 64, 67);
+}
+.bks-block2{
+    height: 77%;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.blo{
+    width: 1000vw;
+    height: 250px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px;
+    padding-bottom: 20px;
+    background-color: rgb(255, 92, 95);
+}
+.project{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    font-weight: bold; 
+    font-size: 25px;
+    color: white;
+}
+.bawah2{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    gap: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 100%;
+    width: 40%;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box p{
+    font-size: 10px;
+    color: white;
+}
+.net{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bks-net{
+    height: 100%;
+    width: 32%;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+.pen{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bks-pen{
+    height: 100%;
+    width: 32%;
+    font-size: 10px;
+    color: white;
+}
+.le{
+    width: 100%;
+    height: 550px;
+    border: 5px solid white;
+    padding: 5px;
+    border-radius: 25px;
+}
+.block4{
+    width: 96%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+    margin-top: 17px;
+    margin-left: 15px;
+}
+.bks-block4{
+    height: 77%;
+    width: 93%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.bawah3{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info{
+    height: 100%;
+    width: 30%;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 10px;
+    padding-left: 5px;
+    background-color: white;
+}
+.info h5{
+    font-size: 12px;
+    color: gray;
+}
+.info h4{
+    font-size: 20px;
+}
+.block5{
+    width: 96%;
+    height: 230px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+    margin-left: 15px;
+}
+.bks-block5{
+    height: 77%;
+    width: 93%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(239, 239, 239);
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+.edu{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 2px;
+}
+.bawah4{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info1{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    gap: 2%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: white;
+}
+.gk{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.malas{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.malas h5{
+    height: 100%;
+    width: 50%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+.block6{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+.bks-block6{
+    height: 88%;
+    width: 90%;
+}
+.pro{
+    height: 8%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+.gam{
+    height: 92%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rat{
+    height: 90%;
+    width: 24%;
+    border: 1px solid grey;
+    border-radius: 15px;
+    background-color: rgb(241, 241, 241);
+}
+.fot{
+    height: 65%;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 5px 5px 25px ;
+}
+.fot img{
+    height: 80%;
+    width: 80%;
+    margin-left: 24px;
+}
+.opi{
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 25%;
+    width: 100%;
+    gap: 3%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.opi h2{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.opi h3{
+    font-size: 10px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.opi p{
+    margin-bottom: 3px;
+}
+.gk1 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.block8{
+    height: 450px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+}
+.bks-block8{
+    height: 80%;
+    width: 90%;
+}
+.con{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.pl{
+    height: 16%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+.input{
+    height: 70%;
+    width: 100%;
+    gap: 5%;
+}
+.input input{
+    width: 100%;
+    height: 15%;
+    border: none;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+.but{
+    width: 50%;
+    height: 15%;
+}
+.but button{
+    height: 60%;
+    width: 15%;
+    background-image: linear-gradient(to top right,rgb(255, 114, 114),rgb(255, 60, 60) );
+}
+.des{
+    height: 160px;
+    width: 100%;
+    margin-top: 20px;
+}
+.baw1 img{
+    height: 6vh;
+    width: 6vh;
+    text-align: center;
+    gap: 5%;
+    margin: 5px;
+    color: white;
+    margin-left: 410px;
+    margin-top: 20px;
+}
+.baw1 p{
+    color: white;
+    margin-left: 400px;
+}
+.baw{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.baw img{
+    width: 3vh;
+    height: 3vh;
+    margin-top: 10px;
+}
+@media(max-width: 380px ){
+    .back{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .gam{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .gam img{
+        width: 40%;
+        height: 40%;
+        margin-left: 80px;
+    }
+    .baw1 img{
+        display: none;
+    }
+    .baw1 p{
+        display: none;
+    }
+    .gambar{
+        border: 1px solid gray;
+        width: 70%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .gambar img{
+        height: 113px;
+        width: 200px;
+    }
+    .block1 {
+        height: 310px;
+    }
+    .bks-block1{
+        margin-bottom: 50px;
+    }
+    .tulisan{
+        font-size: 12px;
+        overflow: scroll;
+        height: 100px;
+        width: 100%;
+    }
+    .bawah1{
+        flex-wrap: wrap;
+    }
+    .block2{
+        height: 200px;
+    }
+    .bawah2{
+        height: 70px;
+    }
+    .net p{
+        font-size: 8px;
+    }
+    .lorem1{
+        overflow: scroll;
+    }
+    .lorem2{
+    }
+    .bawah3{
+        flex-wrap: wrap;
+        overflow: scroll;
+        gap: 10%;
+    }
+    .info{
+        width: 100%;
+    }
+    .block4{
+        height: 200px;
+    }
+    .bawah4{
+        flex-wrap: wrap;
+        overflow: scroll;
+        gap: 10%;
+    }
+    .info1{
+        width: 100%;
+    }
+    .gk{
+        width: 100px;
+    }
+    .block6{
+        height: 220px;
+    }
+    .gam{
+        height: 150px;
+        width: 100%;
+    }
+    .pro{
+        height: 40px;
+        margin-bottom: 2px;
+    }
+    .but{
+        width: 200px;
+    }
+    .but button{
+        width: 1000px;
+    }
+    .des{
+        height: 50px;
+    }
+    .bks-back{
+        height: 448px;
+        overflow: scroll;
+        border: 2px solid white;
+        padding: 5px;
+        width: 90%;
+        border-radius: 25px;
+    }
+    .judul{
+        height: 200px;
+    }
+    .des{
+        margin-top: 20px;
+    }
+    .back1{
+        height: 2000px;
+    }
+    .jud3{
+        width: 371px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .back1{
+        height: 437px;
+    }
+    .gam{
+        overflow: scroll;
+        flex-wrap: wrap;
+        height: 73%;
+    }
+    .rat{
+        width: 100%;
+        border: none;   
+    }
+    .fot{
+        border: 1px solid gray;
+        border-radius: 15px;
+        width: 32%;
+        margin-left: 190px;
+        border: none;
+    }
+    .fot img{
+        border: none;
+        width: 70px;
+        height: 100px;
+        margin-top: 120px;
+    }
+    .fot hr{
+        rotate: 90deg;
+    }
+    
+    .opi{
+        width: 50%;
+        border: none;
+    }
+    .rat{
+        margin-bottom: 100px;
+        height: 10px;   
+    }
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .box p{
+        align-items: center;
+        margin-left: 4px;
+    }
+    .blo{
+        height: 200px;
+    }
+    .block2{
+        border: 2px solid white;
+    }
+    .bks-block2{
+        margin-bottom: 20px;
+    }
+    .net{
+        margin-top: 10px;
+    }
+    .fot{
+        border: none;
+        height: 1px;
+    }
+    .block4{
+        width: 90%;
+    }
+    .block5{
+        width: 90%;
+    }
+    .le{
+        height: 520px;
+    }
+    .bks-block4{
+        padding: 5px;
+    }
+    .bks-block5{
+        padding: 5px;
+    }
+}
+67
